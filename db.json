@@ -1,0 +1,50 @@
+[{
+"name": "罗洋洋",
+"photo": "",
+"title": "讲师",
+"mechanism:"北京理工大学",
+"papers":["Distributionally Robust Federated Averaging","Minibatch vs Local SGD for Heterogeneous Distributed Learning","Byzantine Resilient Distributed Multi-Task Learning"],
+"field":["Computer Vision","Natural Language Processing"],
+"influenced":["燕琛丽","Alan","Clarence"],
+"influenced_by":["Helen"]
+},
+{
+"name": "燕琛丽",
+"photo": "",
+"title": "讲师",
+"mechanism:"北京理工大学",
+"papers":["ScaleCom: Scalable Sparsified Gradient Compression for Communication-Efficient Distributed Training","LIRBase: a comprehensive database of long inverted repeats in eukaryotic genomes"],
+"field":["Database","Gc Content"],
+"influenced":["罗洋洋"],
+"influenced_by":["Karl"]
+},
+{
+"name": "向代柔",
+"photo": "",
+"title": "教授",
+"mechanism:"浙江大学",
+"papers":["Perspective The Elements of Data Sharing","Multi-omics annotation of human long non-coding RNAs","The 2019 novel coronavirus resource","Sr4r: An Integrative Snp Resource For Genomic Breeding And Population Research In Rice","EWAS Data Hub: a resource of DNA methylation array data and metadata"],
+"field":["Database","Algorithm"],
+"influenced":["Mary","John","Jane"],
+"influenced_by":["万和正"]
+},
+{
+"name": "万和正",
+"photo": "",
+"title": "副教授",
+"mechanism:"南京大学",
+"papers":["Stronger, Faster and More Explainable: A Graph Convolutional Baseline for Skeleton-based Action Recognition","Unsupervised Cross-Domain Person Re-Identification: A New Framework"],
+"field":["Human Action Recognition","Visualization","Feature Extraction"],
+"influenced":["Karl"],
+"influenced_by":["Emma","何文石"]
+},
+{
+"name": "何文石",
+"photo": "",
+"title": "副教授",
+"mechanism:"北京大学",
+"papers":["A free-radical-promoted stereospecific denitro silylation of β-nitroalkenes with silanes","An Approach for Synthesis of Dithioacetals by CuI-Catalyzed C-S Coupling Reaction of N-Tosylhydrazone with Disulfides","The palladium-catalyzed C-N cross-coupling reaction of diheteroaryl disulfides with heterocyclic amines"],
+"field":["Natrual Language Processing","Synthesis"],
+"influenced":["万和正"],
+"influenced_by":["Tinna"]
+}]

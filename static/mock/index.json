@@ -1,0 +1,101 @@
+[{
+"name": "罗洋洋",
+"photo": "../../static/images/19100122420C335-0-lp.jpg",
+"title": "讲师",
+"mechanism":"北京理工大学",
+"papers":["Distributionally Robust Federated Averaging","Minibatch vs Local SGD for Heterogeneous Distributed Learning","Byzantine Resilient Distributed Multi-Task Learning"],
+"field":["Computer Vision","Natural Language Processing","Computer Vision","Natural Language Processing","Computer Vision","Natural Language Processing","Computer Vision"],
+"influenced": [{"name":"燕琛丽","value":10},{"name":"Alan","value": 20},{"name":"Clarence", "value":80}],
+"influenced_by":[{"name":"Helen","value":10}]
+},
+{
+"name": "燕琛丽",
+"photo": "",
+"title": "讲师",
+"mechanism":"北京理工大学",
+"papers":["ScaleCom: Scalable Sparsified Gradient Compression for Communication-Efficient Distributed Training","LIRBase: a comprehensive database of long inverted repeats in eukaryotic genomes"],
+"field":["Database","Gc Content"],
+"influenced":[{"name":"罗洋洋","value":10}],
+"influenced_by":[{"name":"Karl","value":100}]
+},
+{
+"name": "向代柔",
+"photo": "",
+"title": "教授",
+"mechanism":"浙江大学",
+"papers":["Perspective The Elements of Data Sharing","Multi-omics annotation of human long non-coding RNAs","The 2019 novel coronavirus resource","Sr4r: An Integrative Snp Resource For Genomic Breeding And Population Research In Rice","EWAS Data Hub: a resource of DNA methylation array data and metadata"],
+"field":["Database","Algorithm"],
+"influenced":[{"name":"Mary","value":10},{"name":"John","value":30},{"name":"Jane","value":10}],
+"influenced_by":[{"name":"万和正","value":10}]
+},
+{
+"name": "万和正",
+"photo": "",
+"title": "副教授",
+"mechanism":"南京大学",
+"papers":["Stronger, Faster and More Explainable: A Graph Convolutional Baseline for Skeleton-based Action Recognition","Unsupervised Cross-Domain Person Re-Identification: A New Framework"],
+"field":["Human Action Recognition","Visualization","Feature Extraction"],
+"influenced":[{"name":"Karl","value":10}],
+"influenced_by":[{"name":"Emma","value":30},{"name":"何文石","value":40}]
+},
+{
+"name": "何文石",
+"photo": "",
+"title": "副教授",
+"mechanism":"北京大学",
+"papers":["A free-radical-promoted stereospecific denitro silylation of β-nitroalkenes with silanes","An Approach for Synthesis of Dithioacetals by CuI-Catalyzed C-S Coupling Reaction of N-Tosylhydrazone with Disulfides","The palladium-catalyzed C-N cross-coupling reaction of diheteroaryl disulfides with heterocyclic amines"],
+"field":["Natrual Language Processing","Synthesis"],
+"influenced":[{"name":"万和正","value":30}],
+"influenced_by":[{"name":"Tinna","value":30}]
+},
+  {
+    "name": "李文",
+    "photo": "",
+    "title": "教授",
+    "mechanism":"清华大学",
+    "papers":["A free-radical-promoted stereospecific denitro silylation of β-nitroalkenes with silanes","An Approach for Synthesis of Dithioacetals by CuI-Catalyzed C-S Coupling Reaction of N-Tosylhydrazone with Disulfides","The palladium-catalyzed C-N cross-coupling reaction of diheteroaryl disulfides with heterocyclic amines"],
+    "field":["Natrual Language Processing","Virtual reality"],
+    "influenced":[],
+    "influenced_by":[{"name":"Tinna","value":300},{"name":"Gorge","value":100},{"name":"毛玉书","value":30},{"name":"吴文柏","value":30}]
+  },
+  {
+    "name": "毛玉书",
+    "photo": "",
+    "title": "研究员",
+    "mechanism":"清华大学",
+    "papers":["A free-radical-promoted stereospecific denitro silylation of β-nitroalkenes with silanes","An Approach for Synthesis of Dithioacetals by CuI-Catalyzed C-S Coupling Reaction of N-Tosylhydrazone with Disulfides","The palladium-catalyzed C-N cross-coupling reaction of diheteroaryl disulfides with heterocyclic amines"],
+    "field":["Natrual Language Processing","Virtual reality"],
+    "influenced":[{"name":"李文","value":90},{"name":"吴文柏","value":30}],
+    "influenced_by":[{"name":"Tinna","value":90},{"name":"Gorge","value":90},{"name":"ALan","value":10}]
+  },
+  {
+    "name": "吴文柏",
+    "photo": "",
+    "title": "讲师",
+    "mechanism":"东北大学",
+    "papers":["Individuals with substance use disorders have a distinct oral microbiome pattern","Reduced gut microbiome diversity in people with HIV who have distal neuropathic pain","Galileo - Citizen-led Experimentation Using a Social Computing System","Context-Aware Dimensionality Reduction Deconvolutes Gut Microbial Community Dynamics"],
+    "field":["Natrual Language Processing","Virtual reality"],
+    "influenced":[{"name":"Knight","value":910},{"name":"李文","value":90}],
+    "influenced_by":["Tinna","毛玉书"]
+  },
+  {
+    "name": "申风华",
+    "photo": "",
+    "title": "讲师",
+    "mechanism":"东南大学",
+    "papers":["Effects of SARS-CoV-2 strain variation on virus neutralisation titres: therapeutic use of convalescent plasma"],
+    "field":["RNA","Genotype","Virus"],
+    "influenced":[{"name":"Knight","value":90}],
+    "influenced_by":[{"name":"Tinna","value":90},{"name":"Peter","value":80},{"name":"John","value":50}]
+  },
+  {
+    "name": "邵文斌",
+    "photo": "",
+    "title": "教授",
+    "mechanism":"华南理工大学",
+    "papers":["Sars-Cov-2 Within-Host Diversity And Transmission","Virological and serological characterization of critically ill patient with COVID-19 in the UK: a special focus on variant detection","Evaluation of Different PCR Assay Formats for Sensitive and Specific Detection of SARS-CoV-2 RNA","Prisoner of War dynamics explains the time-dependent pattern of substitution rates in viruses"],
+    "field":["Privacy","Access Control"],
+    "influenced":[{"name":"Knight","value":90},{"name":"申风华","value":20}],
+    "influenced_by":[{"name":"苏英达","value":80}]
+  }
+]
