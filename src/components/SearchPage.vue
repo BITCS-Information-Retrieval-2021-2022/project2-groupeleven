@@ -240,15 +240,11 @@ export default {
       let millisecond1 = date1.getMilliseconds();
       this.axios
         .get(
-          /*"http://39.96.43.48/search?query=" +
+          "http://127.0.0.1/search?query=" +
             query +
             "&page=" +
-            this.currentPage +
-            "&order=" +
-            this.order +
-            "&year=" +
-            this.year*/
-          '../../static/mock/index.json'
+            this.currentPage
+          //'../../static/mock/index.json'
         )
         .then((response) => {
           // alert("ok");
@@ -308,17 +304,14 @@ export default {
         let millisecond1 = date1.getMilliseconds();
         this.axios
           .get(
-            /*"http://39.96.43.48/search?query=" +
+            "http://127.0.0.1/search?query=" +
               this.getWd +
               "&theme=" +
               this.theme +
               "&page=" +
-              this.currentPage +
-              "&order=" +
-              this.order +
-              "&year=" +
-              this.year*/
-            '../../static/mock/index.json'
+              this.currentPage
+
+            //'../../static/mock/index.json'
           )
           .then((response) => {
             //alert("ok");
