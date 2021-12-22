@@ -216,8 +216,7 @@ export default {
     },
     submitWd_thispage() {
       //此界面为普通搜索 把其他条件都清空
-      console.log('在本页进行搜索')
-      this.year = "";
+      console.log('在本页进行搜索');
       this.theme = "";
       this.submitWd();
     },
