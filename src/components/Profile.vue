@@ -170,13 +170,13 @@
               <div>
                 <el-tabs>
                   <el-tab-pane>
-                    <span slot="label"> influenced</span>
+                    <span slot="label">Authors who influenced</span>
                     <div>
                       <div id="main" style="width: 600px;height:400px;"></div>
 
                     </div>
                   </el-tab-pane>
-                  <el-tab-pane label="influenced_by">
+                       <el-tab-pane label="Authors who influenced_by">
                     <div c>
                       <div id="main2" style="width: 600px;height:400px;"></div>
                     </div>
