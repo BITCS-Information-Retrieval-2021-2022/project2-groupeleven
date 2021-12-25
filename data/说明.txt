@@ -1,0 +1,1 @@
+受github上传大小限制，data.rar文件不是MongoDB的原始数据文件，而是使用mongoexport从数据库导出的json文件
