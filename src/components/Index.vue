@@ -16,7 +16,7 @@
 import SearchWindows from "./SearchWindows.vue";
 import CopyRight from "./CopyRight.vue";
 import LocalHeaders from "./LocalHeaders.vue";
-import AdvancedSearch from "./AdvancedSearch.vue";
+
 
 export default {
   name: "index",
@@ -24,7 +24,7 @@ export default {
     SearchWindows,
     CopyRight,
     LocalHeaders,
-    AdvancedSearch,
+
   },
   data() {
     return {
