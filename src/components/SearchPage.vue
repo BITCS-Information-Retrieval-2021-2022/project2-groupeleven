@@ -136,7 +136,7 @@
 </template>
 
 <script>
-import AdvancedSearchVue from "./AdvancedSearch.vue";
+
 export default {
   name: "SearchPage",
   data() {
@@ -194,11 +194,6 @@ export default {
         console.log("跳转来自：普通检索");
         this.pagefrom = "1";
         this.submitWd();
-      } else {
-        // console.log("跳转来自：高级检索");
-        this.pagefrom = "2";
-        this.advancedSearch(this.form);
-        console.log('form: '+this.form)//Belle
       }
     },
     getHeight() {
@@ -219,71 +214,7 @@ export default {
       this.theme = "";
       this.submitWd();
     },
-    advancedSearch(form) {
-      //高级检索
-      var query = {
-        name: form.name,
-        institution: form.institution,
-        paper: form.paper,
-        field: form.field,
-        status: form.status,
-      };
-      this.wd = JSON.stringify(query);
-      console.log('query: '+query)//Belle
-      this.year = form.date;
-      this.loading = true;
-      this.page = 0;
-      let date1 = new Date();
-      let second1 = date1.getSeconds();
-      let millisecond1 = date1.getMilliseconds();
-      this.axios
-        .get(
-          "http://127.0.0.1:8000/search?query=" +
-          query +
-          "&page=" +
-          this.currentPage
-          //'../../static/mock/index.json'
-        )
-        .then((response) => {
-          // alert("ok");
-          console.log(response.status_code);
-          //计算页数
-          this.total = response.data.value;
-          if (response.data.length % 10 != 0) {
-            this.pageCount = Math.floor(response.data.value / 10) + 1;
-            this.showPage = true;
-          } else {
-            this.pageCount = response.data.value / 10;
-            this.showPage = true;
-          }
-          // this.info = JSON.parse(response.data);
-          this.info = response.data.data;
-          this.loading = false;
-          //计算检索时间
-          let date2 = new Date();
-          let second2 = date2.getSeconds();
-          let millisecond2 = date2.getMilliseconds();
-          console.log(second1);
-          //检索时间
-          if (second2 - second1 > 0) {
-            this.returntime = second2 - second1;
-          } else if (second2 === second1) {
-            if (millisecond2 - millisecond1 > 0) {
-              this.returntime = (millisecond2 - millisecond1) / 1000;
-            } else {
-              this.returntime = (1000 + millisecond2 - millisecond1) / 1000;
-            }
-          }
-        })
-        .catch((err) => {
-          // alert("error");
-          console.log(err);
-          this.info = [];
-          this.showPage = false;
-          this.loading = false;
-        })
-        .finally(() => {});
-    },
+
     //后台请求数据
     submitWd() {
       this.goTop();
@@ -301,14 +232,14 @@ export default {
         let second1 = date1.getSeconds();
         let millisecond1 = date1.getMilliseconds();
         this.axios
-          .get(
-            "http://127.0.0.1:8000/search?query=" +
-            this.getWd +
-            "&theme=" +
-            this.theme +
-            "&page=" +
-            this.currentPage
-            //'../../static/mock/index.json'
+        .get(
+         "http://127.0.0.1:8000/search?query=" +
+                      this.getWd +
+                      "&theme=" +
+                      this.theme +
+                      "&page=" +
+                      this.currentPage
+                     // '../../static/mock/index.json'
           )
           .then((response) => {
             //alert("ok");
@@ -323,7 +254,7 @@ export default {
               this.pageCount = Math.floor(response.data.value / 10) + 1;
               this.showPage = true;
             } else {
-              this.pageCount = response.data.value / 10;
+              this.pageCount = response.data.value/ 10;
               this.showPage = true;
             }
             // this.info = JSON.parse(response.data);
