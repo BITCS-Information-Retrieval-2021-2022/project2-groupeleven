@@ -193,6 +193,7 @@ query:{
 |  [vue-router](https://github.com/vuejs/vue-router)   | [![npm version](https://img.shields.io/badge/npm-v3.0.1-orange)](https://www.npmjs.com/package/vue-router) | [vue-router docs(zh-CN)](https://router.vuejs.org/zh/installation.html) |             Vue 官方的路由管理器             |
 |        [vuex](https://github.com/vuejs/vuex)         | [![npm version](https://img.shields.io/badge/npm-v3.1.0-orange)]() |        [vuex docs(zh-CN)](https://vuex.vuejs.org/zh/)        | 专为 Vue.js 应用程序开发的**状态管理模式**库 |
 |   [monstache](https://github.com/rwynn/monstache)    | [![Monstache CI](https://github.com/rwynn/monstache/workflows/Monstache%20CI/badge.svg?branch=rel6)](https://github.com/rwynn/monstache/actions?query=branch%3Arel6) | [monstache docs(en-US)](https://rwynn.github.io/monstache-site/) | 用于同步MongoDB服务器与Elastic Search的数据  |
+|       requests        | 2.24.0 |          |           python实现的简单易用的HTTP库            |
 
 ## 小组分工 
 
