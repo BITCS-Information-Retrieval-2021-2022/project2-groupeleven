@@ -1,0 +1,8 @@
+name		姓名		字符串
+photo		照片地址		字符串
+title		职称		字符串
+mechanism	所属机构		字符串
+papers		论文名称列表	字符串列表
+field		研究领域		字符串列表
+influenced	影响了该学者的人名	[{"name": 字符串, "value": 整数}, {}, ...]
+influenced_by	被该学者影响的人名	[{"name": 字符串, "value": 整数}, {}, ...]
