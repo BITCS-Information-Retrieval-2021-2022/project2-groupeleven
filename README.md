@@ -188,26 +188,43 @@ query:{
 ### 1.数据库字段含义
 
 name		姓名		字符串
+
 photo		照片地址		字符串
+
 title		职称		字符串
+
 mechanism	所属机构		字符串
+
 papers		论文名称列表	字符串列表
+
 field		研究领域		字符串列表
+
 influenced	影响了该学者的人名	[{"name": 字符串, "value": 整数}, {}, ...]
+
 influenced_by	被该学者影响的人名	[{"name": 字符串, "value": 整数}, {}, ...]
 
 ### 2.字段覆盖率
 
 数据总条数：16693
+
 aminer数据条数：16693
+
 scholar数据条数：9189
+
 name		姓名		99.98%
+
 photo		照片地址		20.89%
+
 title		职称		21.69%
+
 mechanism	所属机构		69.19%
+
 papers		论文名称列表	82.00%
+
 field		研究领域		77.82%
+
 influenced	影响了该学者的人名	55.05%
+
 influenced_by	被该学者影响的人名	55.03%
 
 
