@@ -241,16 +241,7 @@ influenced_by	被该学者影响的人名	55.03%
 |   [monstache](https://github.com/rwynn/monstache)    | [![Monstache CI](https://github.com/rwynn/monstache/workflows/Monstache%20CI/badge.svg?branch=rel6)](https://github.com/rwynn/monstache/actions?query=branch%3Arel6) | [monstache docs(en-US)](https://rwynn.github.io/monstache-site/) | 用于同步MongoDB服务器与Elastic Search的数据  |
 |       [requests](https://github.com/psf/requests)        | 2.24.0 | [requests docs(en-US)](https://docs.python-requests.org/en/latest/)         |           python实现的简单易用的HTTP库            |
 
-## 小组分工 
 
-|   姓名   |    学号    |       分工        | 职务 |
-| :------: | :--------: | :---------------: | :--: |
-|  陈轶飞  | 3220211147 | 后端+后端页面接口 | 组员 |
-|  朱宇博  | 3120211052 | 爬虫+数据库       | 组员 |
-|  李晓雨  | 3220211169 | 爬虫+数据库       | 组员 |
-|  毕蓓    | 3120211030 | 前端+前端页面接口 | 组员 |
-|  高思睿  | 3220211003 | 前端             | 组员 |
-|  李逸文  | 3120211038 |       后端        | 组长 |
 
 
 
